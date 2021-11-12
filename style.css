@@ -1,0 +1,12 @@
+body {
+  font-family: 'Nunito', sans-serif;
+  background: url('./img/pexels-anton-atanasov-735809.jpg') center/cover
+    no-repeat fixed;
+}
+/*======================
+    social icons 
+
+========================*/
+.info h5 {
+  letter-spacing: 0.3rem;
+}
