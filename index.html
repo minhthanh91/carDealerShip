@@ -8,9 +8,9 @@
     <!-- css -->
     <link rel="stylesheet" href="./style.css" />
     <!-- animate css -->
-    <link rel="stylesheet" href="./animate.min.css" />
+    <!-- <link rel="stylesheet" href="./animate.min.css" /> -->
     <!-- magnific-popup css -->
-    <link rel="stylesheet" href="./magnific-popup/magnific-popup.css" />
+    <!-- <link rel="stylesheet" href="./magnific-popup/magnific-popup.css" /> -->
     <!-- google font -->
     <link
       href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Nunito&family=Orbitron&display=swap"
@@ -25,10 +25,387 @@
     <link rel="stylesheet" href="./bootstrap.min.css" />
   </head>
   <body>
+    <!-- preloader -->
+    <div class="preloader d-flex justify-content-center align-items-center">
+      <img src="./img/Wedges-10s-200px.gif" alt="preloader" />
+    </div>
+    <!-- navbar -->
+    <nav
+      id="navbar"
+      class="navbar px-3 navbar-expand-lg navbar-light bg-light fixed-top"
+    >
+      <a class="navbar-brand" href="#">
+        <i class="fas fa-life-ring fa-2x text-primary"></i>
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#collapsibleNavId"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div
+        class="collapse navbar-collapse justify-content-around"
+        id="collapsibleNavId"
+      >
+        <ul class="navbar-nav mt-2 mt-lg-0">
+          <li class="nav-item">
+            <a class="nav-link text-dark" href="#navbar">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark" href="#inventory">Inventory</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark" href="#featured">Featured</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input
+            class="form-control mr-sm-2"
+            type="text"
+            placeholder="Search"
+          />
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+            Search
+          </button>
+        </form>
+        <!-- social icons -->
+        <div class="nav-icons d-none d-lg-block">
+          <a href="#navbar">
+            <i class="fab fa-facebook"></i>
+          </a>
+          <a href="#navbar" class="mx-2 text-info">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="#navbar" class="text-danger">
+            <i class="fab fa-youtube"></i>
+          </a>
+        </div>
+      </div>
+    </nav>
+    <!-- header -->
+    <header id="header" class="header">
+      <div class="container-fluid">
+        <div class="row align-items-center">
+          <div class="col-md-9 ml-auto text-right text-white pr-5">
+            <h5 class="p-2 d-inline-block">THE ALL NEW</h5>
+            <h2 class="my-2">2021 MERCEDES-BENZ</h2>
+            <h3>MODEL NAME</h3>
+            <h6>Starts From</h6>
+            <h2>
+              $80000
+              <span class="d-inline-block">
+                <i class="fas fa-play text-primary"></i>
+              </span>
+            </h2>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- skills -->
+    <section id="skills" class="skills py-5">
+      <div class="container">
+        <!-- title -->
+        <div class="row">
+          <div class="col d-flex flex-wrap justify-content-center">
+            <h1 class="font-weight-bold align-self-center mx-1">WHY CHOOSE</h1>
+            <h1 class="section-title--special text-white px-3 py-1">
+              CAR LIBRARY
+            </h1>
+          </div>
+        </div>
+        <div class="row">
+          <!-- item skills -->
+          <div class="col-sm-6 col-lg-3 text-center my-3">
+            <a href="#skills">
+              <i
+                class="
+                  fas
+                  fa-car fa-2x
+                  text-warning
+                  bg-light
+                  p-3
+                  rounded-circle
+                "
+              ></i>
+            </a>
+            <h6 class="font-weight-bold my-3">ALL BRAND</h6>
+            <hr />
+            <p class="w-75 mx-auto text-muted">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus,
+              laborum.
+            </p>
+          </div>
+          <!-- item skills -->
+          <div class="col-sm-6 col-lg-3 text-center my-3">
+            <a href="#skills">
+              <i
+                class="
+                  fas
+                  fa-comments fa-2x
+                  text-warning
+                  bg-light
+                  p-3
+                  rounded-circle
+                "
+              ></i>
+            </a>
+            <h6 class="font-weight-bold my-3">FREE SUPPORT</h6>
+            <hr />
+            <p class="w-75 mx-auto text-muted">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus,
+              laborum.
+            </p>
+          </div>
+          <!-- item skills -->
+          <div class="col-sm-6 col-lg-3 text-center my-3">
+            <a href="#skills">
+              <i
+                class="
+                  fas
+                  fa-people-carry fa-2x
+                  text-warning
+                  bg-light
+                  p-3
+                  rounded-circle
+                "
+              ></i>
+            </a>
+            <h6 class="font-weight-bold my-3">CARRING</h6>
+            <hr />
+            <p class="w-75 mx-auto text-muted">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus,
+              laborum.
+            </p>
+          </div>
+          <!-- item skills -->
+          <div class="col-sm-6 col-lg-3 text-center my-3">
+            <a href="#skills">
+              <i
+                class="
+                  fas
+                  fa-wallet fa-2x
+                  text-warning
+                  bg-light
+                  p-3
+                  rounded-circle
+                "
+              ></i>
+            </a>
+            <h6 class="font-weight-bold my-3">AFFORDABLE</h6>
+            <hr />
+            <p class="w-75 mx-auto text-muted">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus,
+              laborum.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- inventory -->
+    <section id="inventory" class="inventory py-5 bg-light">
+      <div class="container">
+        <!-- title -->
+        <div class="row">
+          <div class="col d-flex flex-wrap justify-content-center">
+            <h1 class="font-weight-bold align-self-center mx-1">OUR</h1>
+            <h1 class="section-title--special text-white px-3 py-1">
+              INVENTORY
+            </h1>
+          </div>
+        </div>
+        <!-- filter buttons -->
+        <div class="row mb-5">
+          <div
+            class="
+              col-10
+              mx-auto
+              col-md-12
+              d-flex
+              justify-content-end
+              filter-buttons
+            "
+          >
+            <!-- <button class="btn btn-outline-secondary text-uppercase mx-1" data-country="german">
+              all
+            </button> -->
+          </div>
+        </div>
+        <!-- items -->
+        <div class="row displayCars">
+          <!-- item -->
+          <!-- <div class="col-10 my-3 col-md-6 col-lg-4">
+            <div class="card my-3">
+              <img
+                src="./img/cars/pexels-garvin-st-villier-3972755.jpg"
+                alt="car"
+                class="card-img-top mw-100"
+              />
+              <div class="card-body">
+                <div class="card-info d-flex justify-content-between">
+                  <div class="car-text text-uppercase">
+                    <h6 class="font-weight-bold">american</h6>
+                    <h6>model</h6>
+                  </div>
+                  <h5 class="car-value align-self-center py-2 px-3 bg-warning">
+                    $<span>10000</span>
+                  </h5>
+                </div>
+              </div>
+              <div
+                class="
+                  card-footer
+                  text-capitalize
+                  d-flex
+                  justify-content-between
+                "
+              >
+                <p>
+                  <span><i class="fas fa-car"></i></span>sedan
+                </p>
+                <p>
+                  <span><i class="fas fa-cogs"></i></span>automatic
+                </p>
+                <p>
+                  <span><i class="fas fa-gas-pump"></i></span>50
+                </p>
+              </div>
+            </div>
+          </div> -->
+        </div>
+      </div>
+    </section>
+    <!-- questions -->
+    <section id="questions" class="questions py-3">
+      <div class="container">
+        <div class="row">
+          <div
+            class="
+              col-10
+              mx-auto
+              my-2
+              col-md-6
+              d-flex
+              justify-content-between
+              question-grey
+              p-4
+            "
+          >
+            <a href="#" class="question-icon mr-3">
+              <i class="fas fa-search fa-2x text-primary"></i>
+            </a>
+            <div class="question-text w-75 text-white">
+              <h4 class="question-title text-capitalize font-weight-bold">
+                are you looking for a car?
+              </h4>
+              <p class="question-info">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui,
+                laborum.
+              </p>
+            </div>
+          </div>
+          <div
+            class="
+              col-10
+              mx-auto
+              my-2
+              col-md-6
+              d-flex
+              justify-content-between
+              question-yellow
+              p-4
+            "
+          >
+            <a href="#" class="question-icon mr-3">
+              <i class="fas fa-dollar-sign fa-2x text-primary"></i>
+            </a>
+            <div class="question-text w-75 text-white">
+              <h4 class="question-title text-capitalize font-weight-bold">
+                do you want to sell a car?
+              </h4>
+              <p class="question-info">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui,
+                laborum.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- featured -->
+    <section id="featured" class="featured py-5 bg-light">
+      <div class="container">
+        <!-- title -->
+        <div class="row">
+          <div class="col d-flex flex-wrap justify-content-center">
+            <h1 class="font-weight-bold align-self-center mx-1">FEATURED</h1>
+            <h1 class="section-title--special text-white px-3 py-1">CARS</h1>
+          </div>
+        </div>
+        <div class="row align-items-center">
+          <div class="col-10 mx-auto my-3 col-lg-6 featured-info">
+            <!-- item added dynamic-->
+            <!-- <div
+              class="
+                featured-item
+                my-3
+                d-flex
+                p-2
+                text-capitalize
+                align-items-baseline
+                flex-wrap
+              "
+            >
+              <span class="featured-icon mr-2">
+                <i class="fa fa-car"></i>
+              </span>
+              <h5 class="font-weight-bold mx-1">mescedes</h5>
+              <h5 class="mx-1">new model</h5>
+            </div> -->
+          </div>
+          <div class="col-10 mx-auto my-3 col-lg-6 featured-img">
+            <div class="img-container">
+              <img
+                src="./img/cars/pexels-mat-brown-952338.jpg"
+                alt="car"
+                class="w-100 featured-photo"
+              />
+              <a href="#" class="featured-link">
+                <i class="fa fa-search"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- footer -->
+    <footer class="footer py-5 bg-dark">
+      <div class="footer-icons d-flex justify-content-around">
+        <a href="#" class="footer-icon">
+          <i class="fab fa-facebook fa-2x text-warning"></i>
+        </a>
+        <a href="#" class="footer-icon">
+          <i class="fab fa-twitter fa-2x text-warning"></i>
+        </a>
+        <a href="#" class="footer-icon">
+          <i class="fab fa-instagram fa-2x text-warning"></i>
+        </a>
+        <a href="#" class="footer-icon">
+          <i class="fab fa-linkedin fa-2x text-warning"></i>
+        </a>
+        <a href="#" class="footer-icon">
+          <i class="fab fa-google-plus fa-2x text-warning"></i>
+        </a>
+      </div>
+    </footer>
     <!-- js -->
     <script src="./jquery-3.6.0.min.js"></script>
     <script src="./bootstrap.bundle.min.js"></script>
-    <script src="./magnific-popup/jquery.magnific-popup.js"></script>
+    <!-- <script src="./magnific-popup/jquery.magnific-popup.js"></script> -->
     <script src="./script.js"></script>
   </body>
 </html>

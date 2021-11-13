@@ -1,12 +1,155 @@
 body {
   font-family: 'Nunito', sans-serif;
-  background: url('./img/pexels-anton-atanasov-735809.jpg') center/cover
-    no-repeat fixed;
+  /* background: url('./img/pexels-anton-atanasov-735809.jpg') center/cover
+    no-repeat fixed; */
 }
 /*======================
-    social icons 
+    header
 
 ========================*/
-.info h5 {
-  letter-spacing: 0.3rem;
+#header {
+  margin-top: 68px;
+  clip-path: polygon(0 0, 100% 0, 100% 95%, 50% 100%, 0 95%);
+}
+#header .row {
+  min-height: calc(100vh - 68px);
+  background: url('./img/cars/pexels-pixabay-164634.jpg') center/cover no-repeat
+    fixed;
+  animation: zoom 20s 5s;
+}
+#header .row .col-md-9 h5 {
+  background-color: rgba(0, 0, 0, 0.4);
+  border-left: 10px solid mediumseagreen;
+}
+@keyframes zoom {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2) translateX(-5%);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@media screen and (min-width: 768px) {
+  #header .row .col-md-9 h5 {
+    font-size: 1.5rem;
+  }
+}
+/*======================
+    skills
+
+========================*/
+.section-title--special {
+  clip-path: polygon(5% 0, 100% 0, 95% 100%, 0 100%);
+  background-color: rgba(30, 144, 255, 0.5);
+}
+hr {
+  /* border-top: 10px solid gold; */
+  width: 20%;
+  background-color: tomato;
+  min-height: 0.2rem;
+}
+/*======================
+    preloader
+
+========================*/
+.preloader {
+  z-index: 999;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: ghostwhite;
+}
+/*======================
+    inventory
+
+========================*/
+#inventory img.card-img-top {
+  height: 250px;
+  object-fit: cover;
+}
+
+/*======================
+    questions
+
+========================*/
+#questions {
+  background: url('./img/cars/pexels-yurii-hlei-1545743.jpg') center/cover
+    no-repeat fixed;
+}
+.question-yellow {
+  background: rgba(255, 215, 0, 0.3);
+}
+.question-grey {
+  background: rgba(128, 128, 128, 0.5);
+}
+
+#questions .question-text:hover .question-title {
+  color: #000080 !important;
+}
+/*======================
+    featured
+
+========================*/
+.featured-item {
+  background-color: white;
+  border-radius: 0.5rem;
+  opacity: 0.5;
+  cursor: pointer;
+  transition: all 1s;
+}
+.featured-item:hover {
+  opacity: 1;
+  transform: scale(1.05);
+}
+.featured-icon {
+  font-size: 1.5rem;
+  color: #d2d200;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.featured-icon:hover {
+  color: #000080;
+}
+.img-container {
+  background-color: #000080;
+  position: relative;
+  overflow: hidden;
+}
+.featured-photo {
+  transition: all 1s;
+  max-height: 350px;
+  object-fit: cover;
+}
+.img-container:hover .featured-photo {
+  transform: scale(1.3);
+  opacity: 0.5;
+}
+.featured-link {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 3rem;
+  transform: translate(-50%, -50%);
+  color: #5d5d5d;
+  opacity: 0.5;
+  transition: all 1s;
+}
+.featured-link:hover {
+  color: white;
+}
+
+/*======================
+    footer
+
+========================*/
+.footer-icon i {
+  transition: all 1s;
+}
+.footer-icon i:hover {
+  color: #008080 !important;
 }
